@@ -10,7 +10,7 @@ class TestBooksCollector:
         books = ['Сияние', 'Незнайка на Луне']
         for book in books:
             collection.add_new_book(book)
-            assert len(collection.get_books_genre()) == 2
+        assert len(collection.get_books_genre()) == 2
 
     def test_add_new_book_enable_default_genre_success(self, collection):
         first_book = 'Властелин колец'
