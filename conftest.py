@@ -3,7 +3,7 @@ from main import BooksCollector
 
 @pytest.fixture
 def collection():
-    collextion = BooksCollector()
+    collection = BooksCollector()
     return collection
 
 def pytest_make_parametrize_id(val):
