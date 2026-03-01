@@ -71,7 +71,7 @@ class TestBooksCollector:
 
     def test_get_books_for_children_success(self, collection_five_books):
         children_books = collection_five_books.get_books_for_children()
-        assert len(children_books) == 2 and children_books == ['Властелин колец', 'Незнайка на Луне']
+        assert len(children_books) == 3 and children_books == ['Властелин колец', 'Незнайка на Луне', '12 стульев']
 
     def test_add_book_in_favorites_add_one_book_added(self, collection):
         first_book = 'Капитал'
